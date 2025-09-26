@@ -4,15 +4,15 @@ import { Phone, MessageCircle, MapPin, Clock, Mail } from "lucide-react";
 
 const ContactSection = () => {
   const handleBookCall = () => {
-    window.location.href = "tel:+917738404054";
+    window.location.href = "tel:+918451023405";
   };
 
   const handleWhatsApp = () => {
-    window.open("https://wa.me/917738404054?text=I would like to book a spa appointment", "_blank");
+    window.open("https://wa.me/918451023405?text=I would like to book a spa appointment", "_blank");
   };
 
   const handleDirections = () => {
-    window.open("https://maps.google.com/?q=Office No 1405, Lotus Link Square Building, Opp. Metro Station, D N Nagar, Shiv Nagar, Andheri West, Mumbai 400053", "_blank");
+    window.open("https://maps.google.com/?q=803, 8th Floor,1 Aerocity Coporate Park, Near Saki Naka Metro, Andheri Kurla Road,Safed pool Shivaji Nagar Jarimari,Andheri East,Mumbai.Maharashtra-400072", "_blank");
   };
 
   return (
@@ -25,7 +25,7 @@ const ContactSection = () => {
           </h2>
           <div className="divider-gold w-24 mx-auto mb-6"></div>
           <p className="text-xl text-muted-foreground font-elegant max-w-3xl mx-auto">
-            Located in the heart of Andheri West, easily accessible from the metro station. 
+            Located in the heart of Andheri East, easily accessible from Saki Naka metro station. 
             Book your appointment today and experience ultimate luxury.
           </p>
         </div>
@@ -42,10 +42,10 @@ const ContactSection = () => {
                 <div>
                   <h3 className="font-semibold text-foreground mb-2 text-lg">Our Location</h3>
                   <p className="text-muted-foreground font-elegant leading-relaxed">
-                    Office No 1405, Lotus Link Square Building,<br />
-                    Opp. Metro Station, D N Nagar,<br />
-                    Shiv Nagar, Andheri West,<br />
-                    Mumbai 400053
+                    803, 8th Floor,1 Aerocity Coporate Park,<br />
+                    Near Saki Naka Metro, Andheri Kurla Road,<br />
+                    Safed pool Shivaji Nagar Jarimari,<br />
+                    Andheri East, Mumbai, Maharashtra-400072
                   </p>
                   <Button variant="link" onClick={handleDirections} className="text-primary hover:text-accent p-0 mt-2 font-elegant">
                     Get Directions →
@@ -65,8 +65,8 @@ const ContactSection = () => {
                   <p className="text-muted-foreground font-elegant mb-3">
                     Speak directly with our booking team for personalized service
                   </p>
-                  <a href="tel:+917738404054" className="text-primary hover:text-accent font-semibold text-lg">
-                    07738 404054
+                  <a href="tel:+918451023405" className="text-primary hover:text-accent font-semibold text-lg">
+                    08451 023405
                   </a>
                 </div>
               </div>
@@ -115,7 +115,7 @@ const ContactSection = () => {
             <div className="card-luxury bg-gradient-to-br from-primary/10 to-accent/10 border-primary/30">
               <div className="text-center">
                 <h3 className="font-luxury text-2xl font-bold text-primary mb-4">
-                  Book Your Ramantra Experience
+                  Book Your Rosewood Experience
                 </h3>
                 <p className="text-muted-foreground font-elegant mb-8 leading-relaxed">
                   Experience the pinnacle of luxury spa treatments. Our expert therapists are 
@@ -142,7 +142,7 @@ const ContactSection = () => {
                 New Client Special
               </h4>
               <p className="text-primary-foreground/90 font-elegant mb-4">
-                Enjoy 25% off your first Ramantra treatment
+                Enjoy 25% off your first Rosewood treatment
               </p>
               <p className="text-sm text-primary-foreground/80 font-elegant">
                 *Valid for first-time clients only. Cannot be combined with other offers.
@@ -156,7 +156,7 @@ const ContactSection = () => {
                   🚇 Metro Accessible Location
                 </h4>
                 <p className="text-muted-foreground font-elegant text-sm">
-                  Conveniently located opposite D N Nagar Metro Station for early access. 
+                  Conveniently located near Saki Naka Metro Station for easy access. 
                   Parking available for those arriving by car.
                 </p>
               </div>

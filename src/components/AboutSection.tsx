@@ -31,18 +31,18 @@ const AboutSection = () => {
           {/* Content */}
           <div>
             <h2 className="font-luxury text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Why Choose <span className="text-primary">Ramantra Luxury Spa</span>?
+              Why Choose <span className="text-primary">Rosewood Luxury Spa</span>?
             </h2>
             <div className="divider-gold w-24 mb-8"></div>
             
             <p className="text-lg text-muted-foreground mb-8 font-elegant leading-relaxed">
-              At Ramantra Luxury Spa, we believe in the power of holistic healing and luxurious pampering. 
+              At Rosewood Luxury Spa, we believe in the power of holistic healing and luxurious pampering. 
               Our philosophy centers around creating a sanctuary where mind, body, and spirit can find perfect harmony 
               through expertly crafted treatments and an atmosphere of pure tranquility.
             </p>
             
             <p className="text-lg text-muted-foreground mb-12 font-elegant leading-relaxed">
-              Located in the heart of Andheri West, we combine traditional wellness wisdom with modern luxury 
+              Located in the heart of Andheri East, we combine traditional wellness wisdom with modern luxury 
               to deliver an unparalleled spa experience that rejuvenates and inspires.
             </p>
 
@@ -78,7 +78,7 @@ const AboutSection = () => {
             
             <div className="card-luxury text-center">
               <div className="text-4xl font-luxury font-bold text-primary mb-2">15+</div>
-              <div className="text-muted-foreground font-elegant">Ramantra Treatments</div>
+              <div className="text-muted-foreground font-elegant">Rosewood Treatments</div>
             </div>
             
             <div className="card-luxury text-center">
@@ -91,7 +91,7 @@ const AboutSection = () => {
                 Our Promise
               </h3>
               <p className="text-muted-foreground font-elegant">
-                "Every visit to Ramantra Luxury Spa is a journey towards wellness, 
+                "Every visit to Rosewood Luxury Spa is a journey towards wellness, 
                 relaxation, and inner peace. We are committed to exceeding your expectations 
                 with our exceptional service and genuine care."
               </p>

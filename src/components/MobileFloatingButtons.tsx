@@ -3,11 +3,11 @@ import { Button } from "@/components/ui/button";
 
 const MobileFloatingButtons = () => {
   const handleWhatsApp = () => {
-    window.open("https://wa.me/917738404054", "_blank");
+    window.open("https://wa.me/918451023405", "_blank");
   };
 
   const handleCall = () => {
-    window.location.href = "tel:+917738404054";
+    window.location.href = "tel:+918451023405";
   };
 
   return (

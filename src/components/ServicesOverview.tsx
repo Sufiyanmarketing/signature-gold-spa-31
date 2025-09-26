@@ -81,7 +81,7 @@ const servicesData = [
 
 const ServicesOverview = () => {
   const handleCallNow = () => {
-    window.location.href = "tel:+917738404054";
+    window.location.href = "tel:+918451023405";
   };
 
   return (
@@ -90,7 +90,7 @@ const ServicesOverview = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="font-luxury text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Our <span className="text-primary">Ramantra</span> Services
+            Our <span className="text-primary">Rosewood</span> Services
           </h2>
           <div className="divider-gold w-24 mx-auto mb-6"></div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto font-elegant">

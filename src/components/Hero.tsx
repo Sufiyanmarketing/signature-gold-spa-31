@@ -5,11 +5,11 @@ import heroImage from "@/assets/hero-spa.jpg";
 
 const Hero = () => {
   const handleBookCall = () => {
-    window.location.href = "tel:+917738404054";
+    window.location.href = "tel:+918451023405";
   };
 
   const handleWhatsApp = () => {
-    window.open("https://wa.me/917738404054?text=I would like to book a spa appointment", "_blank");
+    window.open("https://wa.me/918451023405?text=I would like to book a spa appointment", "_blank");
   };
 
   return (
@@ -27,12 +27,12 @@ const Hero = () => {
         <h1 className="font-luxury text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
           Welcome to{" "}
           <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Ramantra Luxury Spa
+            Rosewood Luxury Spa
           </span>
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 font-elegant">
-          Ramantra Spa Experiences in the Heart of Andheri West
+          Rosewood Spa Experiences in the Heart of Andheri East
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

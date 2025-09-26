@@ -6,7 +6,7 @@ const testimonials = [
   {
     id: 1,
     name: "Priya Sharma",
-    location: "Andheri West",
+    location: "Andheri East",
     rating: 5,
     text: "Absolutely divine experience! The hot stone massage was incredibly relaxing and the ambiance is pure luxury. The therapists are highly skilled and professional.",
     treatment: "Hot Stone Massage"
@@ -170,7 +170,7 @@ const TestimonialsSection = () => {
           </p>
           <Button 
             className="btn-luxury text-lg px-8 py-4"
-            onClick={() => window.location.href = "tel:+917738404054"}
+            onClick={() => window.location.href = "tel:+918451023405"}
           >
             Book Your Session Today
           </Button>
